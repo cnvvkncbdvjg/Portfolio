@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "9a117af4-62ef-48ed-a805-03e18901ad6e",
+		"name": "TEST3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28629359"
+	},
+	"item": [
+		{
+			"name": "TRV",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://opendata.trudvsem.ru/api/v1/vacancies?text=тестировщик",
+					"protocol": "http",
+					"host": [
+						"opendata",
+						"trudvsem",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"vacancies"
+					],
+					"query": [
+						{
+							"key": "text",
+							"value": "тестировщик"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
